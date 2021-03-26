@@ -3,7 +3,7 @@
 ## 'Homemade' random user API using Express and Node Js.
 
 <h4 align="center"> 
-	🚧  RandomUser API 🚀 Status: finalizado  🚧
+	🚧  RandomUser API 🚀 Status: finished  🚧
 </h4>
 
 ### 🍄 Autors
@@ -12,7 +12,7 @@
 
 ### 🛠 Technologies
 
-The following technologies was used to complete the project:
+The following technologies was used to complete the challenge:
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/en/)
