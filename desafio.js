@@ -3,17 +3,19 @@ const faker = require('faker');
 const app = express();
 const port = 2000;
                                                                                          
-var obj = {
-    first_name: faker.name.firstName(),
-    last_name: faker.name.lastName(),
-    gender: faker.name.gender(),
-    email:faker.internet.email(),
-    password:faker.internet.password(),
-    birth: faker.date.past(50,2005).toLocaleDateString()
-}
+
 
 app.get('/', (req, res) => {
-  res.send(obj);
+  res.send(
+    {
+      first_name: faker.name.firstName(),
+      last_name: faker.name.lastName(),
+      gender: faker.name.gender(),
+      email:faker.internet.email(),
+      password:faker.internet.password(),
+      birth: faker.date.past(50,2005).toLocaleDateString()
+    }
+  );
 });
 
 app.listen(port, () => {
