@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/anvitrola/RandomUserAPI/issues"
   },
-  "homepage": "https://github.com/anvitrola/RandomUserAPI#readme"
+  "homepage": "https://github.com/anvitrola/RandomUserAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.0"
+  }
 }
