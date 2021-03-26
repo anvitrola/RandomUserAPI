@@ -1,0 +1,19 @@
+{
+  "name": "desafio_mod3_sem1",
+  "version": "1.0.0",
+  "description": "Homemade random user API",
+  "main": "desafio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvitrola/RandomUserAPI.git"
+  },
+  "author": "Ana Vitoria Viana, Rafael Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvitrola/RandomUserAPI/issues"
+  },
+  "homepage": "https://github.com/anvitrola/RandomUserAPI#readme"
+}
