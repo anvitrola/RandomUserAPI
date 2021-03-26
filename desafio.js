@@ -9,7 +9,7 @@ var obj = {
     gender: faker.name.gender(),
     email:faker.internet.email(),
     password:faker.internet.password(),
-    birth: faker.date.past(50,2005)
+    birth: faker.date.past(50,2005).toLocaleDateString()
 }
 
 app.get('/', (req, res) => {
